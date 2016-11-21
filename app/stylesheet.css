@@ -1,0 +1,62 @@
+html, body, .container-fluid, .col-sm-3, .row {
+    height: 100%;
+}
+
+.left-panel {
+    background-color: gray;
+    height: 100%;
+}
+
+.panel-paddings {
+    padding-top: 45px;
+    padding-left: 30px;
+}
+
+.row-paddings {
+    padding-bottom: 45px;
+}
+
+.padding-betwen-elements {
+    padding-right: 15px;
+}
+
+.cell {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.matrix {
+    border-style: solid;
+    display: inline-block;
+}
+
+
+/*.matrix {
+    position: relative;
+    width: 500px;
+    padding: 2em;
+    margin: 1em;
+    display: inline;
+    padding-bottom: 50px;
+}
+
+.matrix:before, .matrix:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 30px;
+    border: 5px solid #333;
+    position: absolute;
+    top: -5px;
+}
+
+.matrix:before {
+    left: 0;
+    border-right: 0;
+}
+
+.matrix:after {
+    right: 0;
+    border-left: 0;
+}*/

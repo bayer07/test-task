@@ -1,0 +1,9 @@
+<div class="panel-paddings">
+    <div class="matrix" ng-repeat="m in matrix">
+        <div ng-repeat="item in m.array">
+            <span ng-repeat="i in item track by $index">
+                <input type="text" ng-model="i" class="cell" ng-change="change(m.name,$parent.$index,$index,i)">
+            </span>
+        </div>
+    </div>
+</div>
